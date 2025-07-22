@@ -1,0 +1,10 @@
+.trend-p{
+    font-size: 0.9rem;
+    color: rgb(172, 172, 172);
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.trend{
+    cursor: pointer;
+}

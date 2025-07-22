@@ -1,0 +1,32 @@
+.user-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.f-icon{
+    color: rgb(194, 194, 194);
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.name-icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.following-btn{
+    border: none;
+    padding: 5px 15px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.following-btn:hover{
+    background-color: gray;
+}

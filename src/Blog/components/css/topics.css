@@ -1,0 +1,21 @@
+.topics {
+    border-bottom: var(--border-bottom);
+    border-left: var(--border-left);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.topics h3{
+    margin-bottom: 15px;
+}
+
+.topics-btn{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.topics-btn:hover{
+    background-color: rgb(231, 231, 231);
+}

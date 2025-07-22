@@ -1,0 +1,82 @@
+.blog-form-container{
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+    width: 350px;
+    /* height: 320px; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 1000px 1000px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.close{
+    font-size: 1.5rem;
+    color: rgb(148, 148, 148);
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.close{
+    cursor: pointer;
+}
+
+.blog-form-container h4{
+    margin-bottom: 10px;
+}
+
+.input-header, .textarea{
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.textarea{
+    height: 6rem;
+}
+
+.label{
+    font-size: 0.9rem;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+
+#image{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.btns-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-btn{
+    border: none;
+    padding: 10px 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.add-btn{
+    background-color: blue;
+}
+
+.add-btn:hover{
+    background-color: rgb(72, 72, 255);
+}
+
+.cancel-btn{
+    background-color: rgb(100, 100, 100);
+}
+
+.cancel-btn:hover{
+    background-color: rgb(170, 170, 170);
+}
